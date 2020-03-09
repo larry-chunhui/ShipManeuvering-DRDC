@@ -1,0 +1,32 @@
+refinementBox     
+{ 
+   type    searchableBox; 
+   min     (-3.500000 -2.000000 -0.062500); 
+   max     (1.500000 2.000000 0.039900); 
+} 
+
+
+refinementWaterline     
+{ 
+   type    searchableBox; 
+   min     (-3.500000 -2.000000 -0.010000); 
+   max     (1.500000 2.000000 0.015000); 
+} 
+
+
+refinementRegions 
+{ 
+  refinementBox 
+  { 
+   mode inside;
+   levels ((1e15 2));
+  } 
+  refinementWaterline 
+  { 
+   mode inside;
+   levels ((1e15 3));
+  } 
+} 
+
+
+    locationInMesh (1.490000 1.990000 -0.990000);

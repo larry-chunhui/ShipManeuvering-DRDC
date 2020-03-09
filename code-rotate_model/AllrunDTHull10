@@ -1,0 +1,1 @@
+python modSTL.py -i DTC-scaled.stl -o DTC-yaw10roll0.stl -t 0,0,0 -r 0,0,-10.0

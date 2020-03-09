@@ -1,0 +1,1 @@
+python modSTL.py -i DTM-scaled.stl -o DTM-yaw10roll0.stl -t 0,0,0 -r 0,0,170.0
