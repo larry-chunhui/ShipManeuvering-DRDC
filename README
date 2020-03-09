@@ -1,0 +1,13 @@
+#code-enlarge_modell 
+#C code to rescale the ship geometry STL file
+
+#code-rotate_model
+#Python code to rotate and translate the ship STL file
+
+#python-blockMesh-code
+#Python code for mesh generation: output blockMeshDict file in OpenFOAM
+
+#wigley-stl-python
+#python code to create analytical geometry STL file for wigley hull
+#ref: URANS and DES analysis for a Wigley hull at extreme drift angles, 2010 J Mar Sci Technol. 
+ 
